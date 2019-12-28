@@ -1,0 +1,54 @@
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article{
+
+    margin: 30px;
+    text-align: center;
+}
+
+#blog img{
+     width: 100%;
+    max-width: 380px; 
+    margin-bottom: 50px;
+}
+
+#blog article p{
+    border-style: solid;
+    border-color: #fcf5ac;
+    padding: 20px;
+}
+
+#blog #fondo_morado{
+    background-color: #e3ddeb;
+    width: 3300px;
+
+}
+
+#blog #fondo_morado img{
+    padding: 30px;
+}
+
+#blog #fondo_morado p{
+    border-style: solid;
+    border-color: #e3ddeb;
+}
+
+#blog article #texto4{
+    border-style: solid;
+    border-color: #a0c9c9;
+    border-width: 5px;
+    padding: 20px; 
+}
+
+
+#blog article #texto3{
+    margin:0%;
+    border-color: #ffffff;
+    padding: 0%;
+}
+
+

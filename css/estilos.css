@@ -1,0 +1,53 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baskervville', serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #9dcdcf;
+    color: white;
+
+    position: fixed;  /*barra pegada*/
+    top: 0;   /*comienze bien pegado*/
+    left: 0;
+    z-index: 100; /* 100pre delante*/
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#texto_inicial{
+    width:  90%;
+    height: 50px;
+    margin: auto;
+    font-family: 'Baskervville', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
